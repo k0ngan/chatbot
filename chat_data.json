@@ -1,44 +1,45 @@
 {
-  "betel": "Betel es una empresa especializada en salud ocupacional, calidad de vida laboral y prevencion de riesgos en diversas industrias.",
-  "que es betel": "Betel es una empresa que se dedica a mejorar la salud y seguridad de los trabajadores a traves de distintos servicios y capacitaciones.",
-  "que hace betel": "Betel ofrece servicios en gestion de ausentismo, salud ocupacional, calidad de vida laboral, intervencion en crisis y prevencion de riesgos.",
-  "donde esta betel": "Betel tiene su sede en Santiago, Chile.",
-  "como contactar a betel": "Puedes contactarnos a traves del correo contacto@betel-otec.cl o al telefono +56 9 1234 5678.",
-  "betel tiene redes sociales": "Si, puedes seguirnos en Facebook, Twitter, YouTube y LinkedIn.",
-  "otec": "OTEC significa Organismo Tecnico de Capacitacion. OTEC Betel se enfoca en formar y capacitar trabajadores en salud ocupacional y prevencion de riesgos.",
-  "que es otec": "OTEC significa Organismo Tecnico de Capacitacion. OTEC Betel se enfoca en formar y capacitar trabajadores en salud ocupacional y prevencion de riesgos.",
-  "que cursos tiene betel": "Betel ofrece cursos en Capacitacion en Salud Ocupacional, Formacion en Prevencion de Riesgos, Integracion Familiar y Trabajo, y Ley Karin.",
-  "los cursos de betel tienen certificacion": "Si, todos los cursos de OTEC Betel estan certificados.",
-  "como inscribirme en un curso de betel": "Puedes inscribirte enviando un correo a contacto@betel.cl o usando el formulario en nuestra pagina web.",
-  "cuanto cuesta un curso en betel": "El precio varia segun el curso. Por ejemplo, la Capacitacion en Ley Karin cuesta $450.",
-  "betel ofrece cursos para empresas": "Si, Betel ofrece capacitaciones personalizadas para empresas.",
-  "casos de exito de betel": "Hemos trabajado con empresas mineras y de retail como Walmart Chile para reducir el ausentismo y mejorar la calidad de vida laboral.",
-  "como ayuda betel a reducir el ausentismo": "Analizamos el historial de ausentismo, capacitamos en ergonomia y manejo del estres, y ofrecemos atencion psicologica.",
-  "que servicios de salud ofrece betel": "Ofrecemos ambulancias de alta complejidad 24/7, telemedicina, salas de procedimientos moviles y atencion a grupos de riesgo.",
-  "como prevenir accidentes en el trabajo": "Brindamos capacitaciones en seguridad, evaluaciones de riesgos y programas de prevencion para distintas industrias.",
-  "betel trabaja con mineria": "Si, contamos con programas especificos para la mineria, gestion de ausentismo, telemedicina y prevencion de riesgos.",
-  "betel tiene atencion medica en faenas": "Si, tenemos salas de procedimientos moviles y equipos medicos especializados para brindar atencion en terreno.",
-  "betel tiene ambulancias": "Si, nuestras ambulancias de alta complejidad estan operativas 24/7 para responder a emergencias.",
-  "hola": "¡Hola! ¿En que puedo ayudarte?",
-  "hola betel": "¡Hola! Betel es una empresa especializada en salud ocupacional, calidad de vida laboral y prevencion de riesgos. ¿Quieres saber mas sobre sus servicios?",
-  "hola otec": "¡Hola! OTEC Betel es un Organismo Tecnico de Capacitacion que ofrece cursos en salud ocupacional y prevencion de riesgos. ¿Quieres mas detalles?",
-  "hola quiero saber sobre betel": "Betel es una empresa especializada en salud ocupacional, calidad de vida laboral y prevencion de riesgos en diversas industrias.",
-  "hola quiero saber sobre otec": "OTEC Betel ofrece capacitaciones certificadas en salud ocupacional y prevencion de riesgos. ¿Te interesa algun curso en particular?",
-  "hola que hace betel": "Betel ofrece servicios en gestion de ausentismo, salud ocupacional, calidad de vida laboral, intervencion en crisis y prevencion de riesgos.",
-  "hola que cursos ofrece otec": "OTEC Betel ofrece cursos en Capacitacion en Salud Ocupacional, Formacion en Prevencion de Riesgos, Integracion Familiar y Trabajo, y Ley Karin.",
+  "betel": "Betel es una empresa especializada en salud ocupacional, calidad de vida laboral y prevención de riesgos en diversas industrias.",
+  "que es betel": "Betel es una empresa que se dedica a mejorar la salud y seguridad de los trabajadores a través de distintos servicios y capacitaciones.",
+  "que hace betel": "Betel ofrece servicios en gestión de ausentismo, salud ocupacional, calidad de vida laboral, intervención en crisis y prevención de riesgos.",
+  "betel en qué me puede ayudar": "Betel puede ayudarte a mejorar la seguridad y bienestar en el trabajo con capacitaciones, gestión del ausentismo y servicios de salud ocupacional.",
+  "donde está betel": "Betel tiene su sede en Santiago, Chile.",
+  "dónde puedo encontrar a Betel": "Nos puedes encontrar en Santiago, Chile, y también puedes contactarnos online.",
+  "cómo puedo contactar a betel": "Puedes contactarnos a través del correo contacto@betel-otec.cl o al teléfono +56 9 1234 5678.",
+  "tienen redes sociales": "Sí, puedes seguirnos en Facebook, Twitter, YouTube y LinkedIn.",
+  "betel tiene Instagram": "Por ahora no estamos en Instagram, pero sí en Facebook, Twitter, YouTube y LinkedIn.",
+  "otec": "OTEC significa Organismo Técnico de Capacitación. OTEC Betel se enfoca en formar y capacitar trabajadores en salud ocupacional y prevención de riesgos.",
+  "que es otec": "OTEC significa Organismo Técnico de Capacitación. OTEC Betel se enfoca en formar y capacitar trabajadores en salud ocupacional y prevención de riesgos.",
+  "qué cursos tienen": "Betel ofrece cursos en Capacitación en Salud Ocupacional, Formación en Prevención de Riesgos, Integración Familiar y Trabajo, y Ley Karin.",
+  "los cursos tienen certificación": "Sí, todos los cursos de OTEC Betel están certificados.",
+  "cómo puedo inscribirme en un curso": "Puedes inscribirte enviando un correo a contacto@betel.cl o usando el formulario en nuestra página web.",
+  "cuánto cuesta un curso en betel": "El precio varía según el curso. Por ejemplo, la Capacitación en Ley Karin cuesta $450.",
+  "ofrecen cursos para empresas": "Sí, Betel ofrece capacitaciones personalizadas para empresas.",
+  "han trabajado con empresas grandes": "Sí, hemos trabajado con empresas mineras y de retail como Walmart Chile para reducir el ausentismo y mejorar la calidad de vida laboral.",
+  "cómo ayudan a reducir el ausentismo": "Analizamos el historial de ausentismo, capacitamos en ergonomía y manejo del estrés, y ofrecemos atención psicológica.",
+  "qué servicios de salud tienen": "Ofrecemos ambulancias de alta complejidad 24/7, telemedicina, salas de procedimientos móviles y atención a grupos de riesgo.",
+  "cómo prevenir accidentes en el trabajo": "Brindamos capacitaciones en seguridad, evaluaciones de riesgos y programas de prevención para distintas industrias.",
+  "trabajan con minería": "Sí, contamos con programas específicos para la minería, gestión de ausentismo, telemedicina y prevención de riesgos.",
+  "dan atención médica en faenas": "Sí, tenemos salas de procedimientos móviles y equipos médicos especializados para brindar atención en terreno.",
+  "tienen ambulancias": "Sí, nuestras ambulancias de alta complejidad están operativas 24/7 para responder a emergencias.",
+  "hola": "¡Hola! ¿En qué puedo ayudarte?",
+  "hola betel": "¡Hola! Betel es una empresa especializada en salud ocupacional, calidad de vida laboral y prevención de riesgos. ¿Quieres saber más sobre sus servicios?",
+  "hola otec": "¡Hola! OTEC Betel es un Organismo Técnico de Capacitación que ofrece cursos en salud ocupacional y prevención de riesgos. ¿Quieres más detalles?",
+  "quiero saber sobre betel": "Betel es una empresa especializada en salud ocupacional, calidad de vida laboral y prevención de riesgos en diversas industrias.",
+  "quiero saber sobre otec": "OTEC Betel ofrece capacitaciones certificadas en salud ocupacional y prevención de riesgos. ¿Te interesa algún curso en particular?",
+  "qué cursos ofrece otec": "OTEC Betel ofrece cursos en Capacitación en Salud Ocupacional, Formación en Prevención de Riesgos, Integración Familiar y Trabajo, y Ley Karin.",
   "correccion_errores": {
     "betel": {
       "variantes": ["betal", "vetel", "betell", "betl", "btl", "betle"],
-      "respuesta": "¿Quisiste decir 'Betel'? Betel es una empresa especializada en salud ocupacional, calidad de vida laboral y prevencion de riesgos. Ofrece servicios en gestion de ausentismo, salud ocupacional e intervencion en crisis."
+      "respuesta": "¿Quisiste decir 'Betel'? Betel es una empresa especializada en salud ocupacional, calidad de vida laboral y prevención de riesgos. Ofrece servicios en gestión de ausentismo, salud ocupacional e intervención en crisis."
     },
     "otec": {
       "variantes": ["otc", "otek", "oteq", "oteck", "ottec"],
-      "respuesta": "¿Quisiste decir 'OTEC'? OTEC Betel es un Organismo Tecnico de Capacitacion que ofrece cursos en salud ocupacional, prevencion de riesgos y formacion laboral."
+      "respuesta": "¿Quisiste decir 'OTEC'? OTEC Betel es un Organismo Técnico de Capacitación que ofrece cursos en salud ocupacional, prevención de riesgos y formación laboral."
     },
     "hola": {
       "variantes": ["ola", "holaa", "holi", "helo", "hloa"],
-      "respuesta": "¡Hola! ¿En que puedo ayudarte?"
+      "respuesta": "¡Hola! ¿En qué puedo ayudarte?"
     }
   }
 }
-

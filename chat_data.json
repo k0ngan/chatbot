@@ -1,3 +1,110 @@
 {
-  "hola quiero saber sobre betel": "betel es ...."
+  "preguntas_respuestas": [
+    {
+      "categoria": "General",
+      "preguntas": [
+        {
+          "pregunta": "¿Qué es Betel?",
+          "respuesta": "Betel es una empresa especializada en salud ocupacional, calidad de vida laboral y prevención de riesgos en diversas industrias. Su objetivo es garantizar el bienestar de los trabajadores y optimizar la gestión de salud en las empresas."
+        },
+        {
+          "pregunta": "¿Qué servicios ofrece Betel?",
+          "respuesta": "Betel ofrece servicios en gestión de ausentismo, salud ocupacional, calidad de vida laboral, intervención en crisis y prevención de riesgos, entre otros."
+        },
+        {
+          "pregunta": "¿Qué significa OTEC?",
+          "respuesta": "OTEC significa Organismo Técnico de Capacitación. Betel cuenta con OTEC Betel, que se especializa en la formación y capacitación de trabajadores en temas de salud ocupacional y prevención de riesgos."
+        },
+        {
+          "pregunta": "¿Dónde está ubicada la empresa?",
+          "respuesta": "Betel tiene su sede en Santiago, Chile."
+        },
+        {
+          "pregunta": "¿Cómo puedo contactarlos?",
+          "respuesta": "Puedes contactarnos a través del correo electrónico contacto@betel-otec.cl o al teléfono +56 9 1234 5678."
+        },
+        {
+          "pregunta": "¿Tienen redes sociales?",
+          "respuesta": "Sí, puedes seguirnos en Facebook, Twitter, YouTube y LinkedIn a través de los enlaces disponibles en nuestra página web."
+        }
+      ]
+    },
+    {
+      "categoria": "OTEC y Capacitación",
+      "preguntas": [
+        {
+          "pregunta": "¿Qué cursos ofrece OTEC Betel?",
+          "respuesta": "OTEC Betel ofrece cursos como Capacitación en Salud Ocupacional, Formación en Prevención de Riesgos, Programa de Integración Familiar y Trabajo, y Capacitación en Ley Karin."
+        },
+        {
+          "pregunta": "¿Los cursos tienen certificación?",
+          "respuesta": "Sí, todos los cursos de OTEC Betel están certificados y cumplen con los estándares de capacitación laboral."
+        },
+        {
+          "pregunta": "¿Cómo puedo inscribirme en un curso?",
+          "respuesta": "Puedes inscribirte enviando un correo a contacto@betel.cl o a través del formulario de contacto en nuestra página web."
+        },
+        {
+          "pregunta": "¿Cuánto cuestan los cursos?",
+          "respuesta": "El costo de los cursos varía. Por ejemplo, la Capacitación en Ley Karin tiene un precio de $450."
+        },
+        {
+          "pregunta": "¿Ofrecen cursos para empresas?",
+          "respuesta": "Sí, OTEC Betel ofrece cursos personalizados para empresas, adaptados a sus necesidades específicas."
+        }
+      ]
+    },
+    {
+      "categoria": "Casos de Éxito",
+      "preguntas": [
+        {
+          "pregunta": "¿Cuáles son sus casos de éxito?",
+          "respuesta": "Hemos trabajado con diversas empresas en reducción del ausentismo, mejora de la calidad de vida laboral y prevención de riesgos. Algunos de nuestros casos incluyen empresas mineras y de retail como Walmart Chile."
+        },
+        {
+          "pregunta": "¿Cómo han ayudado a reducir el ausentismo?",
+          "respuesta": "Implementamos estrategias como análisis del historial de ausentismo, encuestas de calidad de vida, capacitaciones en ergonomía y manejo del estrés, y atención psicológica para trabajadores en crisis."
+        }
+      ]
+    },
+    {
+      "categoria": "Salud Ocupacional",
+      "preguntas": [
+        {
+          "pregunta": "¿Qué servicios de salud ocupacional ofrecen?",
+          "respuesta": "Ofrecemos ambulancias de alta complejidad 24/7, telemedicina, salas de procedimientos móviles y programas de atención a grupos de riesgo."
+        },
+        {
+          "pregunta": "¿Cómo pueden ayudar a reducir el ausentismo laboral?",
+          "respuesta": "A través de programas de prevención de riesgos, atención médica en faenas, monitoreo de condiciones de trabajo y reportabilidad en línea."
+        }
+      ]
+    },
+    {
+      "categoria": "Prevención de Riesgos",
+      "preguntas": [
+        {
+          "pregunta": "¿Cómo pueden ayudar a prevenir accidentes laborales?",
+          "respuesta": "Brindamos capacitaciones en seguridad, evaluaciones de riesgos y programas de prevención adaptados a distintas industrias."
+        },
+        {
+          "pregunta": "¿Tienen servicios especiales para faenas mineras?",
+          "respuesta": "Sí, contamos con programas específicos para la minería, incluyendo gestión de ausentismo, telemedicina y prevención de riesgos."
+        }
+      ]
+    },
+    {
+      "categoria": "Servicios Médicos",
+      "preguntas": [
+        {
+          "pregunta": "¿Ofrecen atención médica en faenas?",
+          "respuesta": "Sí, contamos con salas de procedimientos móviles y equipos médicos especializados para brindar atención en terreno."
+        },
+        {
+          "pregunta": "¿Tienen ambulancias disponibles?",
+          "respuesta": "Sí, nuestras ambulancias de alta complejidad están operativas 24/7 para responder a emergencias."
+        }
+      ]
+    }
+  ]
 }

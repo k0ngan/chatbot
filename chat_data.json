@@ -19,6 +19,13 @@
   "betel trabaja con mineria": "Si, contamos con programas especificos para la mineria, gestion de ausentismo, telemedicina y prevencion de riesgos.",
   "betel tiene atencion medica en faenas": "Si, tenemos salas de procedimientos moviles y equipos medicos especializados para brindar atencion en terreno.",
   "betel tiene ambulancias": "Si, nuestras ambulancias de alta complejidad estan operativas 24/7 para responder a emergencias.",
+  "hola": "Hola! ¿En qué puedo ayudarte?",
+  "hola betel": "Hola! Betel es una empresa especializada en salud ocupacional, calidad de vida laboral y prevencion de riesgos. ¿Quieres saber más sobre sus servicios?",
+  "hola otec": "Hola! OTEC Betel es un Organismo Tecnico de Capacitacion que ofrece cursos en salud ocupacional y prevencion de riesgos. ¿Quieres más detalles?",
+  "hola quiero saber sobre betel": "Betel es una empresa especializada en salud ocupacional, calidad de vida laboral y prevencion de riesgos en diversas industrias.",
+  "hola quiero saber sobre otec": "OTEC Betel ofrece capacitaciones certificadas en salud ocupacional y prevencion de riesgos. ¿Te interesa algún curso en particular?",
+  "hola que hace betel": "Betel ofrece servicios en gestion de ausentismo, salud ocupacional, calidad de vida laboral, intervencion en crisis y prevencion de riesgos.",
+  "hola que cursos ofrece otec": "OTEC Betel ofrece cursos en Capacitacion en Salud Ocupacional, Formacion en Prevencion de Riesgos, Integracion Familiar y Trabajo, y Ley Karin.",
   "correccion_errores": {
     "betel": {
       "variantes": ["betal", "vetel", "betell", "betl", "btl", "betle"],
@@ -27,6 +34,10 @@
     "otec": {
       "variantes": ["otc", "otek", "oteq", "oteck", "ottec"],
       "respuesta": "¿Quisiste decir 'OTEC'? OTEC Betel es un Organismo Tecnico de Capacitacion que ofrece cursos en salud ocupacional, prevencion de riesgos y formacion laboral."
+    },
+    "hola": {
+      "variantes": ["ola", "holaa", "holi", "helo", "hloa"],
+      "respuesta": "Hola! ¿En qué puedo ayudarte?"
     }
   }
 }

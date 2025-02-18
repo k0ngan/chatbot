@@ -13,7 +13,7 @@
   "qué cursos tienen": "Betel ofrece cursos en Capacitación en Salud Ocupacional, Formación en Prevención de Riesgos, Integración Familiar y Trabajo, y Ley Karin.",
   "los cursos tienen certificación": "Sí, todos los cursos de OTEC Betel están certificados.",
   "cómo puedo inscribirme en un curso": "Puedes inscribirte enviando un correo a contacto@betel.cl o usando el formulario en nuestra página web.",
-  "cuánto cuesta un curso en betel": "El precio varía según el curso. Para conocer los costos, por favor rellena el formulario en nuestra página web."
+  "cuánto cuesta un curso en betel": "El precio varía según el curso. Por ejemplo, la Capacitación en Ley Karin cuesta $450.",
   "ofrecen cursos para empresas": "Sí, Betel ofrece capacitaciones personalizadas para empresas.",
   "han trabajado con empresas grandes": "Sí, hemos trabajado con empresas mineras y de retail como Walmart Chile para reducir el ausentismo y mejorar la calidad de vida laboral.",
   "cómo ayudan a reducir el ausentismo": "Analizamos el historial de ausentismo, capacitamos en ergonomía y manejo del estrés, y ofrecemos atención psicológica.",
@@ -22,22 +22,13 @@
   "trabajan con minería": "Sí, contamos con programas específicos para la minería, gestión de ausentismo, telemedicina y prevención de riesgos.",
   "dan atención médica en faenas": "Sí, tenemos salas de procedimientos móviles y equipos médicos especializados para brindar atención en terreno.",
   "tienen ambulancias": "Sí, nuestras ambulancias de alta complejidad están operativas 24/7 para responder a emergencias.",
-  "cuentan con ambulancias": "Sí, nuestras ambulancias de alta complejidad están operativas 24/7 para responder a emergencias.",
-  "cual es el costo de una asesoría": "Para conocer el costo de una asesoría, por favor rellena el formulario en nuestra página web."
-  "cual es su dirección": "Nuestra sede está en Santiago, Chile. Para más información, puedes contactarnos directamente.",
-  "valor pausa activa": "Para conocer el costo de una pausa activa, por favor rellena el formulario en nuestra página web."
-  "valor ley karin": "Para conocer el costo del curso de Ley Karin, por favor rellena el formulario en nuestra página web."
-  "cómo es la intervención en crisis": "Nuestra intervención en crisis incluye atención psicológica inmediata, apoyo en situaciones de emergencia y estrategias de contención emocional.",
-  "cuentan con prevencionista de riesgo": "Sí, contamos con especialistas en prevención de riesgos para apoyar a empresas en seguridad y salud ocupacional.",
-  "dirección de sus oficinas": "Estamos ubicados en Santiago, Chile. Para más detalles, contáctanos.",
   "hola": "¡Hola! ¿En qué puedo ayudarte?",
   "hola betel": "¡Hola! Betel es una empresa especializada en salud ocupacional, calidad de vida laboral y prevención de riesgos. ¿Quieres saber más sobre sus servicios?",
   "hola otec": "¡Hola! OTEC Betel es un Organismo Técnico de Capacitación que ofrece cursos en salud ocupacional y prevención de riesgos. ¿Quieres más detalles?",
   "quiero saber sobre betel": "Betel es una empresa especializada en salud ocupacional, calidad de vida laboral y prevención de riesgos en diversas industrias.",
   "quiero saber sobre otec": "OTEC Betel ofrece capacitaciones certificadas en salud ocupacional y prevención de riesgos. ¿Te interesa algún curso en particular?",
-  "qué cursos ofrece otec": "OTEC Betel ofrece cursos en Capacitación en Salud Ocupacional, Formación en Prevención de Riesgos, Integración Familiar y Trabajo, y Ley Karin."
-}
-"correccion_errores": {
+  "qué cursos ofrece otec": "OTEC Betel ofrece cursos en Capacitación en Salud Ocupacional, Formación en Prevención de Riesgos, Integración Familiar y Trabajo, y Ley Karin.",
+  "correccion_errores": {
     "betel": {
       "variantes": ["betal", "vetel", "betell", "betl", "btl", "betle"],
       "respuesta": "¿Quisiste decir 'Betel'? Betel es una empresa especializada en salud ocupacional, calidad de vida laboral y prevención de riesgos. Ofrece servicios en gestión de ausentismo, salud ocupacional e intervención en crisis."
@@ -51,3 +42,4 @@
       "respuesta": "¡Hola! ¿En qué puedo ayudarte?"
     }
   }
+}

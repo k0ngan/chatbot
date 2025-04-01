@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Betel y Otec</title>
+
+  <!-- Hoja de estilos principal -->
+  <link rel="stylesheet" href="styles.css"/>
+  
+  <!-- Iconos y Fuentes -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="icon"
+    href="https://betel-website.s3.us-east-2.amazonaws.com/logos.png"
+    type="image/png"
+  />
+
+  <!-- [INICIO CAMBIO]: Clases con dimensiones distintas para cada imagen -->
+  <style>
+    /* Cada imagen tendrá un ancho y un alto diferente 
+       sin deformarse, usando object-fit: cover. */
+
+    .img-1 {
+      width: 300px; 
+      height: 250px;
+      object-fit: cover;
+    }
+    .img-2 {
+      width: 250px; 
+      height: 300px;
+      object-fit: cover;
+    }
+    .img-3 {
+      width: 320px;
+      height: 260px;
+      object-fit: cover;
+    }
+    .img-4 {
+      width: 180px;
+      height: 278px;
+      object-fit: cover;
+    }
+    .img-5 {
+      width: 297px;
+      height: 163px;
+      object-fit: cover;
+    }
+    .img-6 {
+      width: 255px;
+      height: 376px;
+      object-fit: cover;
+    }
+    .img-7 {
+      width: 360px;
+      height: 220px;
+      object-fit: cover;
+    }
+    .img-8 {
+      width: 297px;
+      height: 244px;
+      object-fit: cover;
+    }
+  </style>
+  <!-- [FIN CAMBIO] -->
+</head>
+
+<body>
+  <!-- Barra superior (estilo YouTube) -->
+  <header class="top-bar">
+    <div class="menu-icon" onclick="toggleSideMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+    <div class="top-bar-logo">
+      <img
+        src="https://betel-website.s3.us-east-2.amazonaws.com/logos.png"
+        alt="Logo Betel"
+      />
+    </div>
+  </header>
+
+  <!-- Menú lateral -->
+  <nav id="side-menu" aria-label="Menú lateral" role="navigation">
+    <ul role="menu">
+      <li role="menuitem"><a href="index.html" onclick="closeSideMenu()">BETEL</a></li>
+      <li role="menuitem"><a href="otec.html" onclick="closeSideMenu()">OTEC</a></li>
+      <li role="menuitem"><a href="casos.html" onclick="closeSideMenu()">Casos de Éxito</a></li>
+      <li role="menuitem"><a href="#contacto" onclick="closeSideMenu()">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Overlay -->
+  <div id="overlay" onclick="closeSideMenu()"></div>
+
+  <!-- Ilustración inicial -->
+  <section
+    id="main-header"
+    class="hero-section"
+    style="background-image: url('https://webbetel-2.s3.us-east-2.amazonaws.com/logos/portadabt.webp');"
+  >
+    <h1>OTEC</h1>
+  </section>
+
+  <!-- Sección OTEC -->
+  <section id="otec" style="margin-top: 1rem;">
+    <h2>OTEC</h2>
+    <p>
+      Como Organismo Técnico de Capacitación (OTEC), Betel se compromete a la formación
+      continua de su equipo y de los profesionales asociados, aportando al desarrollo de
+      competencias laborales en todas las áreas relacionadas con la salud ocupacional.
+      Nuestra prioridad es integrar las últimas tecnologías y protocolos de vanguardia para
+      asegurar servicios de excelencia a nuestros clientes.
+    </p>
+  </section>
+
+  <!-- Sección Cursos OTEC con carrusel -->
+  <section id="cursos-otec">
+    <h2>Cursos OTEC</h2>
+    <div class="carrusel">
+      <div class="carrusel-imagenes">
+        <!-- Curso 1 -->
+        <div class="servicio">
+          <img
+            src="https://webbetel-2.s3.us-east-2.amazonaws.com/logos/otec/Capacitaci%C3%B3n_en_Salud_Ocupacional.jpg"
+            alt="Capacitación en Salud Ocupacional"
+            class="curso-imagen img-1"
+            loading="lazy"
+          />
+          <h3>Capacitación en Salud Ocupacional</h3>
+          <div class="servicio-contenido">
+            <p>
+              Cursos certificados orientados a mejorar la seguridad
+              y el bienestar de los trabajadores en distintos entornos productivos.
+            </p>
+            <a
+              href="mailto:betel@gmail.com?subject=Información%20Capacitación%20en%20Salud%20Ocupacional"
+              class="btn-contactar"
+            >
+              Solicitar Información
+            </a>
+          </div>
+        </div>
+        <!-- Curso 2 -->
+        <div class="servicio">
+          <img
+            src="https://webbetel-2.s3.us-east-2.amazonaws.com/logos/otec/Formaci%C3%B3n_en_Prevenci%C3%B3n_de_Riesgos.jpg"
+            alt="Formación en Prevención de Riesgos"
+            class="curso-imagen img-2"
+            loading="lazy"
+          />
+          <h3>Formación en Prevención de Riesgos</h3>
+          <div class="servicio-contenido">
+            <p>
+              Entrenamientos especializados para prevenir accidentes laborales
+              y fomentar una cultura de seguridad en tu organización.
+            </p>
+            <a
+              href="mailto:betel@gmail.com?subject=Información%20Formación%20en%20Prevención%20de%20Riesgos"
+              class="btn-contactar"
+            >
+              Solicitar Información
+            </a>
+          </div>
+        </div>
+        <!-- Curso 3 -->
+        <div class="servicio">
+          <img
+            src="https://webbetel-2.s3.us-east-2.amazonaws.com/logos/otec/integracion_familiar.jpg"
+            alt="Programa de Integración Familiar y Trabajo"
+            class="curso-imagen img-3"
+            loading="lazy"
+          />
+          <h3>Programa de Integración Familiar y Trabajo</h3>
+          <div class="servicio-contenido">
+            <p>
+              Actividades y estrategias para conciliar la vida familiar
+              con la exigencia del entorno laboral, promoviendo el bienestar integral.
+            </p>
+            <a
+              href="mailto:betel@gmail.com?subject=Información%20Programa%20de%20Integración%20Familiar"
+              class="btn-contactar"
+            >
+              Solicitar Información
+            </a>
+          </div>
+        </div>
+        <!-- Curso 4 -->
+        <div class="servicio">
+          <img
+            src="https://betel-website.s3.us-east-2.amazonaws.com/jpg/ssss.jpg"
+            alt="Capacitación en Ley Karin"
+            class="curso-imagen img-4"
+            loading="lazy"
+          />
+          <h3>Capacitación en Ley Karin</h3>
+          <div class="servicio-contenido">
+            <p>
+              Formación especializada sobre acoso laboral y violencia en el trabajo
+              de acuerdo con la normativa vigente.
+            </p>
+            <a
+              href="mailto:betel@gmail.com?subject=Información%20Capacitación%20en%20Ley%20Karin"
+              class="btn-contactar"
+            >
+              Solicitar Información
+            </a>
+          </div>
+        </div>
+        <!-- Curso 5 -->
+        <div class="servicio">
+          <img
+            src="https://webbetel-2.s3.us-east-2.amazonaws.com/logos/otec/Entrenamiento_a_distancia.jpg"
+            alt="Entrenamiento en liderazgo, comunicación y manejo de conflictos"
+            class="curso-imagen img-5"
+            loading="lazy"
+          />
+          <h3>Entrenamiento a distancia: Liderazgo, Comunicación y Manejo de Conflictos</h3>
+          <div class="servicio-contenido">
+            <p>
+              Fortalece las habilidades de liderazgo y la comunicación efectiva en
+              entornos virtuales o presenciales, con énfasis en resolución de conflictos.
+            </p>
+            <a
+              href="mailto:betel@gmail.com?subject=Información%20Entrenamiento%20Liderazgo%20y%20Comunicación"
+              class="btn-contactar"
+            >
+              Solicitar Información
+            </a>
+          </div>
+        </div>
+        <!-- Curso 6 -->
+        <div class="servicio">
+          <img
+            src="https://webbetel-2.s3.us-east-2.amazonaws.com/logos/otec/calidad_de_vida.jpg"
+            alt="Entrenamiento en calidad de vida"
+            class="curso-imagen img-6"
+            loading="lazy"
+          />
+          <h3>Entrenamiento en calidad de vida</h3>
+          <div class="servicio-contenido">
+            <p>
+              Capacitación enfocada en hábitos saludables, balance ocupacional
+              y estrategias de bienestar integral para los colaboradores.
+            </p>
+            <a
+              href="mailto:betel@gmail.com?subject=Información%20Entrenamiento%20en%20Calidad%20de%20Vida"
+              class="btn-contactar"
+            >
+              Solicitar Información
+            </a>
+          </div>
+        </div>
+        <!-- Curso 7 -->
+        <div class="servicio">
+          <img
+            src="https://webbetel-2.s3.us-east-2.amazonaws.com/logos/otec/conducciondefenciva.png"
+            alt="Entrenamiento en conducción a la defensiva"
+            class="curso-imagen img-7"
+            loading="lazy"
+          />
+          <h3>Entrenamiento en conducción a la defensiva</h3>
+          <div class="servicio-contenido">
+            <p>
+              Técnicas de manejo seguro para reducir accidentes y fomentar la seguridad vial
+              en el ámbito laboral y personal.
+            </p>
+            <a
+              href="mailto:betel@gmail.com?subject=Información%20Entrenamiento%20Conducción%20Defensiva"
+              class="btn-contactar"
+            >
+              Solicitar Información
+            </a>
+          </div>
+        </div>
+        <!-- Curso 8 -->
+        <div class="servicio">
+          <img
+            src="https://webbetel-2.s3.us-east-2.amazonaws.com/logos/otec/primeros_auxilios.jpg"
+            alt="Entrenamiento en manejo de emergencias y primeros auxilios"
+            class="curso-imagen img-8"
+            loading="lazy"
+          />
+          <h3>Entrenamiento en manejo de emergencias y primeros auxilios</h3>
+          <div class="servicio-contenido">
+            <p>
+              Formación práctica para responder de manera efectiva
+              ante situaciones críticas y urgencias en el trabajo.
+            </p>
+            <a
+              href="mailto:betel@gmail.com?subject=Información%20Entrenamiento%20Emergencias%20y%20Primeros%20Auxilios"
+              class="btn-contactar"
+            >
+              Solicitar Información
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Botones de navegación del carrusel -->
+      <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+      <button class="next" onclick="moveSlide(1)">&#10095;</button>
+      <div class="barra-carga" id="barra-carga"></div>
+    </div>
+  </section>
+
+  <p style="text-align:center; margin-top:1rem; font-weight:bold;">
+    Podemos adaptarnos a las necesidades de tu empresa.
+  </p>
+
+  <!-- Sección de Contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <div class="contacto-info">
+      <p><strong>Correo electrónico:</strong> contacto@betel-otec.cl</p>
+      <p><strong>Teléfono:</strong> +56 9 1234 5678</p>
+    </div>
+    <div class="contacto-formulario">
+      <form action="https://formspree.io/f/xeoekokv" method="POST">
+        <input type="text" name="name" placeholder="Nombre" required>
+        <input type="email" name="email" placeholder="Correo electrónico" required>
+        <textarea name="message" rows="4" placeholder="Mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Botón para subir arriba -->
+  <button id="btn-subir" onclick="scrollToTop()">↑</button>
+
+  <!-- Botón del Chat Asistente -->
+  <button class="chat-toggle" onclick="toggleChat()">Chat Asistente</button>
+
+  <!-- Contenedor del chat estilo "Max/HBO" -->
+  <div class="chat-max-container" id="chat-max-container">
+    <!-- Barra superior con logo y botón cerrar -->
+    <div class="chat-max-header">
+      <img 
+        src="https://betel-website.s3.us-east-2.amazonaws.com/logos.png" 
+        alt="Logo Max" 
+        class="chat-max-logo"
+      />
+      <button class="chat-max-close" onclick="toggleChat()">×</button>
+    </div>
+    <!-- Subencabezado con disclaimers -->
+    <div class="chat-max-subheader">
+      <p class="chat-max-time">Hoy a las 22:31</p>
+      <p class="chat-max-disclaimer">
+        Los chats son grabados con fines de servicio al cliente para operar y mejorar
+        nuestros servicios. Al utilizar el chat, aceptas este uso de los datos.
+      </p>
+    </div>
+    <!-- Zona de mensajes -->
+    <div class="chat-max-messages" id="chat-messages">
+      <div class="chat-max-bubble bot-bubble">
+        <p>¡Hola! Soy tu asistente digital. <br>
+        Selecciona una opción para empezar:</p>
+      </div>
+    </div>
+    <!-- Zona de botones -->
+    <div class="chat-max-buttons" id="chat-buttons-container"></div>
+  </div>
+
+  <!-- Footer ordenado -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-column">
+        <h3>Acerca de OTEC</h3>
+        <p>
+          Nuestra prioridad es integrar las últimas tecnologías y protocolos de vanguardia para asegurar servicios de excelencia a nuestros clientes.
+        </p>
+      </div>
+      <div class="footer-column">
+        <h3>Contacto</h3>
+        <p>DIRECCIÓN: Santiago, Chile</p>
+        <p>E-MAIL: contacto@betel.cl</p>
+        <h4>Síguenos</h4>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h3>Servicios</h3>
+        <ul>
+          <!-- Se podrían enlazar de forma parecida a index.html#servicios-betel o directamente a index.html si se desea -->
+          <li><a href="index.html">Gestión de Ausentismo</a></li>
+          <li><a href="index.html">Salud Ocupacional</a></li>
+          <li><a href="index.html">Calidad de Vida Laboral</a></li>
+          <li><a href="index.html">Intervención en Crisis</a></li>
+          <li><a href="index.html">Prevención de Riesgos</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Empresa</h3>
+        <ul>
+          <!-- Se puede enlazar a index.html#quienes-somos -->
+          <li><a href="index.html#quienes-somos">Nosotros</a></li>
+          <li><a href="index.html">Compromiso con la Calidad</a></li>
+          <li><a href="index.html">Clientes</a></li>
+          <li><a href="casos.html">Casos de exito</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Programas Especiales</h3>
+        <ul>
+          <li><a href="index.html">Ley Karin</a></li>
+          <li><a href="index.html">Inclusión Laboral</a></li>
+          <li><a href="index.html">Atención a Grupos de Riesgo</a></li>
+          <li><a href="index.html">Emergencias en Faena</a></li>
+          <li><a href="index.html">Team Building</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Contáctanos</h3>
+        <p>Si tienes dudas o quieres más información, no dudes en escribirnos.</p>
+        <a href="mailto:contacto@betel.cl" class="btn">Enviar Mensaje</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 BETEL. Todos los derechos reservados.</p>
+      <div class="dmca">
+        <!-- Logo DMCA -->
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script principal -->
+  <script src="script.js"></script>
+</body>
+</html>
